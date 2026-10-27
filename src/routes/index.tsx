@@ -60,7 +60,7 @@ function Index() {
         {/* Hero */}
         <section className="mx-auto grid max-w-6xl items-center gap-12 px-6 pb-20 pt-10 md:grid-cols-[1.05fr_1fr] md:pt-16">
           <div className="animate-rise">
-            <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
+            <p className="mb-6 inline-flex items-center gap-2 rounded-full border-2 border-border bg-card px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
               Coming this winter
             </p>
             <h1 className="text-5xl leading-[1.02] md:text-7xl">
@@ -84,7 +84,7 @@ function Index() {
               alt="A vintage microphone with speech flowing into tidy note cards"
               width={1408}
               height={1024}
-              className="shadow-paper w-full rounded-3xl border border-border"
+              className="shadow-paper w-full rounded-3xl border-2 border-border"
             />
           </div>
         </section>
@@ -97,7 +97,7 @@ function Index() {
               {steps.map((step, i) => (
                 <article
                   key={step.title}
-                  className="shadow-paper rounded-2xl border border-border bg-background p-7"
+                  className="shadow-paper rounded-2xl border-2 border-border bg-background p-7"
                 >
                   <div className="flex items-center justify-between">
                     <step.icon className="h-6 w-6 text-primary" />
@@ -155,7 +155,7 @@ function WaitlistSection() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
             <h2 className="text-4xl md:text-5xl">Be first to hear what your customers mean.</h2>
-            <p className="mt-4 text-ink-foreground/75">
+            <p className="mt-4 text-ink-foreground/85">
               We're letting in a small group of product teams each month. Leave your email and
               we'll save you a seat.
             </p>
@@ -167,7 +167,7 @@ function WaitlistSection() {
                 <Check className="h-5 w-5" />
               </span>
               <p className="mt-4 font-display text-3xl">You're on the list.</p>
-              <p className="mt-2 text-ink-foreground/75">
+              <p className="mt-2 text-ink-foreground/85">
                 We'll write to <strong className="text-ink-foreground">{email.trim()}</strong> when
                 your spot opens up.
               </p>

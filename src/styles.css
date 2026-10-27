@@ -11,8 +11,8 @@
  */
 
 @theme inline {
-  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
-  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -59,30 +59,30 @@
 }
 
 :root {
-  --radius: 0.75rem;
-  --background: oklch(0.962 0.022 85);
-  --foreground: oklch(0.26 0.04 155);
-  --card: oklch(0.985 0.012 85);
-  --card-foreground: oklch(0.26 0.04 155);
-  --popover: oklch(0.985 0.012 85);
-  --popover-foreground: oklch(0.26 0.04 155);
-  --primary: oklch(0.4 0.07 155);
-  --primary-foreground: oklch(0.97 0.018 85);
-  --secondary: oklch(0.92 0.03 85);
-  --secondary-foreground: oklch(0.26 0.04 155);
-  --muted: oklch(0.93 0.025 85);
-  --muted-foreground: oklch(0.45 0.035 150);
-  --accent: oklch(0.65 0.16 45);
-  --accent-foreground: oklch(0.98 0.012 85);
-  --destructive: oklch(0.55 0.2 27);
+  --radius: 1.25rem;
+  --background: oklch(0.975 0.03 95);
+  --foreground: oklch(0.28 0.12 265);
+  --card: oklch(0.93 0.11 95);
+  --card-foreground: oklch(0.28 0.12 265);
+  --popover: oklch(0.99 0.01 95);
+  --popover-foreground: oklch(0.28 0.12 265);
+  --primary: oklch(0.42 0.2 265);
+  --primary-foreground: oklch(0.98 0.01 95);
+  --secondary: oklch(0.88 0.15 92);
+  --secondary-foreground: oklch(0.28 0.12 265);
+  --muted: oklch(0.94 0.04 95);
+  --muted-foreground: oklch(0.42 0.08 265);
+  --accent: oklch(0.7 0.18 28);
+  --accent-foreground: oklch(0.99 0.01 95);
+  --destructive: oklch(0.55 0.22 27);
   --destructive-foreground: oklch(0.98 0.01 85);
-  --border: oklch(0.86 0.03 85);
-  --input: oklch(0.84 0.03 85);
-  --ring: oklch(0.65 0.16 45);
-  --ink: oklch(0.24 0.045 155);
-  --ink-foreground: oklch(0.95 0.025 85);
+  --border: oklch(0.28 0.12 265);
+  --input: oklch(0.28 0.12 265);
+  --ring: oklch(0.7 0.18 28);
+  --ink: oklch(0.42 0.2 265);
+  --ink-foreground: oklch(0.98 0.02 95);
 
-  --shadow-paper: 0 1px 0 oklch(1 0 0 / 60%) inset, 0 18px 40px -24px oklch(0.26 0.04 155 / 45%);
+  --shadow-paper: 6px 6px 0 0 var(--foreground);
   --shadow-lift: 0 10px 0 -4px var(--accent);
 
   --chart-1: oklch(0.65 0.16 45);
